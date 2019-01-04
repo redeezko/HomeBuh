@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="febaa768-cc1a-4ef8-ba02-cc51faaa4c38">
+  <producedTypes>
+    <objectType typeId="60b8b84c-251d-4c38-8f21-b6edc7f2edc4" valueTypeId="a481ccdc-8d00-4d07-906d-9eda56d1d09a"/>
+    <refType typeId="6de63797-d8e2-4404-bc53-24ec37de2cfb" valueTypeId="9b382f71-69ca-4441-9f40-b20500fea959"/>
+    <selectionType typeId="47dd63e9-e0ad-435f-8235-03b7c14abee3" valueTypeId="ffd6e3a3-099e-4d75-843e-96b7c6cd7c14"/>
+    <listType typeId="02964bd9-5651-4343-9c44-fb7a7a645161" valueTypeId="64d87da1-8f24-407e-a582-d07882856894"/>
+    <managerType typeId="58a819e6-a404-4f73-a0cb-a7534d426fc8" valueTypeId="78d2f5dc-4f84-4921-9c91-b17814278bb1"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4e42cc7b-78a9-4208-ad0d-f6f824503483">
+      <name>Евро</name>
+      <description>EUR</description>
+      <code xsi:type="core:StringValue">
+        <value>978</value>
+      </code>
+    </items>
+    <items id="59a47c42-d9a7-460a-b1c7-ee5443642cd4">
+      <name>Доллар</name>
+      <description>USA</description>
+      <code xsi:type="core:StringValue">
+        <value>840</value>
+      </code>
+    </items>
+    <items id="7126e4fc-4691-4412-895e-151cdbbdceaf">
+      <name>Рубль</name>
+      <description>руб.</description>
+      <code xsi:type="core:StringValue">
+        <value>643</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Валюты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="bf0ab24c-23c1-4f48-9516-9d9ee7df49e6">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="765a5276-5f41-4d56-9d3d-1043803035c9">
+    <name>ЗагружаетсяИзИнтернета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружается из интернета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ad4e3ea-8bf6-475f-8de5-d76ec2dad83a">
+    <name>КодЦБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код Центрального Банка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="76ca43f1-da27-496e-adcf-48bf514253ac">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6249a489-1e66-483a-ac8f-c083851bdc72">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

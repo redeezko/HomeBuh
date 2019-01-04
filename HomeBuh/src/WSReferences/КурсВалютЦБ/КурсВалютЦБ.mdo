@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WSReference xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ee6c8d2-3c7b-4cf1-8207-25f885c6744a">
+  <producedTypes>
+    <managerType typeId="158b6989-7be1-4516-b1eb-94ba974ae0ee" valueTypeId="eefda000-6bba-4f71-9d09-e5173bb2bcec"/>
+  </producedTypes>
+  <name>КурсВалютЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курс валют ЦБ</value>
+  </synonym>
+  <comment></comment>
+  <locationURL>http://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx?WSDL</locationURL>
+</mdclass:WSReference>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4543437-431f-4700-81de-4581deb5c99b">
+  <producedTypes>
+    <objectType typeId="32225354-f1f9-460c-85be-2cb05d926ea3" valueTypeId="cb555ad5-f73e-477b-a36d-674f108074ba"/>
+    <refType typeId="6a2d4ef5-4dfe-4970-9fb7-6ea4816dcee7" valueTypeId="e08a559a-1489-4e0e-b6e5-dc9deeaf5a46"/>
+    <selectionType typeId="8787746b-2033-4da3-8805-867110fb6898" valueTypeId="30adc44c-c6da-49e0-9315-f424db99557f"/>
+    <listType typeId="1f384519-6be9-40c8-ba82-40f905aba289" valueTypeId="89bc38a8-e850-4558-9335-61da65856202"/>
+    <managerType typeId="217b20a2-a333-4524-8d2c-f146009da4ba" valueTypeId="91992b35-29b7-4b8b-afce-5c14e4660d12"/>
+  </producedTypes>
+  <name>СтатьиРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи расходов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиРасходов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьиРасходов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>4</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1639b489-5930-4f0e-b52b-2ea8d80a1cd1">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

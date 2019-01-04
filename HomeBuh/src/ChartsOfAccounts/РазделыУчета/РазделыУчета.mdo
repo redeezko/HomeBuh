@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3313a313-22b4-4a86-88d4-26559515df5d">
+  <producedTypes>
+    <objectType typeId="338439bd-54c1-41dc-9635-ea3e1481d2e2" valueTypeId="4764ec78-08e7-4970-ab56-535921ab59f2"/>
+    <refType typeId="80c63efb-bf14-47b0-b79f-cc0cc3ba8ca3" valueTypeId="6e6f36c2-1810-4588-80ea-5d57a101f0fb"/>
+    <selectionType typeId="39a02640-1903-4f8d-b4b3-a0e993bfe8fd" valueTypeId="e04767ef-1529-45fb-8e90-f0dfb9c683dd"/>
+    <listType typeId="ae9480ae-9301-44a4-9f5d-9886438826a2" valueTypeId="948eef4a-4a70-4131-a518-3bb6f3772f6d"/>
+    <managerType typeId="f238b8c7-6764-4218-8460-18e2ca70c0e8" valueTypeId="6b1df6cf-3873-4f69-b6fd-4cc60dcfbc8b"/>
+    <extDimensionTypes typeId="8b15c058-9030-4f79-8e90-49a99b3e81a1" valueTypeId="2c8184ef-8473-453e-9f63-9058b732ea94"/>
+    <extDimensionTypesRow typeId="6cf7ec12-20b2-4204-8de9-ad922d1096ae" valueTypeId="0d6e3087-a921-4d39-9e9e-01087efe650c"/>
+  </producedTypes>
+  <name>РазделыУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы учета</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.РазделыУчета.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfAccounts.РазделыУчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета</extDimensionTypes>
+  <maxExtDimensionCount>2</maxExtDimensionCount>
+  <codeMask></codeMask>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <predefined>
+    <items id="3ceb5dcb-7937-4acd-8742-8316628c7c55">
+      <name>Деньги</name>
+      <description>Деньги</description>
+      <code>100</code>
+      <accountType>ActivePassive</accountType>
+      <order></order>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.СчетаИКошельки</characteristicType>
+      </extDimensionTypes>
+      <childItems id="8eff75ea-c051-47b3-b7d5-c88c17543b1e">
+        <name>СвободныеДеньги</name>
+        <description>Свободные деньги</description>
+        <code>100.1</code>
+        <accountType>ActivePassive</accountType>
+        <order></order>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.СчетаИКошельки</characteristicType>
+        </extDimensionTypes>
+      </childItems>
+      <childItems id="3c048b4b-349b-4b7c-a466-cc9005a85e8e">
+        <name>Накопления</name>
+        <description>Накопления</description>
+        <code>100.2</code>
+        <accountType>ActivePassive</accountType>
+        <order></order>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.СчетаИКошельки</characteristicType>
+        </extDimensionTypes>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.ФинансовыеЦели</characteristicType>
+        </extDimensionTypes>
+      </childItems>
+    </items>
+    <items id="d0f6cacf-5525-42a0-86a4-ff0630d6a906">
+      <name>Долги</name>
+      <description>Долги</description>
+      <code>200</code>
+      <accountType>ActivePassive</accountType>
+      <order></order>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.ФизическиеЛица</characteristicType>
+      </extDimensionTypes>
+      <childItems id="5065d1ae-21c1-4c2a-9ff6-53d12d0ca683">
+        <name>ОсновныеСуммыДолга</name>
+        <description>Основные суммы долга</description>
+        <code>200.1</code>
+        <accountType>ActivePassive</accountType>
+        <order></order>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.ФизическиеЛица</characteristicType>
+        </extDimensionTypes>
+      </childItems>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfAccounts>

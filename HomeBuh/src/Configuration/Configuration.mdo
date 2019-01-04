@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="589f5052-ffdd-4be6-bfd1-49602251cb5b">
+  <name>Конфигурация</name>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="19376310-97d3-4a34-aab8-c96d2a04bcad"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1ff4ad5d-b929-4afd-8097-35191fa60366"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="47bc881c-6c72-4a00-a5c2-d2e1b4e53c4b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3bbc70a9-7344-43e6-9219-d56c5da343f2"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="716f10bd-7453-4686-956c-0a169f1c9a74"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2625193e-8b97-4db2-a15c-e25fd847f2c6"/>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="e1285f19-9314-4dcd-b46d-3987dafe8843">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.КурсыВалютСервер</commonModules>
+  <wsReferences>WSReference.КурсВалютЦБ</wsReferences>
+  <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
+  <catalogs>Catalog.СчетаИКошельки</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.СтатьиДоходов</catalogs>
+  <catalogs>Catalog.СтатьиРасходов</catalogs>
+  <catalogs>Catalog.ФинансовыеЦели</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <enums>Enum.ТипыСчетов</enums>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.РазделыУчета</chartsOfAccounts>
+</mdclass:Configuration>

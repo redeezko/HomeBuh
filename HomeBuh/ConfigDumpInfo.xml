@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.6">
+	<ConfigVersions>
+		<Metadata name="Catalog.Валюты" id="febaa768-cc1a-4ef8-ba02-cc51faaa4c38" configVersion="ca27237852f0d843aaf1b87f5be815a900000000">
+			<Metadata name="Catalog.Валюты.Attribute.ЗагружаетсяИзИнтернета" id="765a5276-5f41-4d56-9d3d-1043803035c9"/>
+			<Metadata name="Catalog.Валюты.Attribute.КодЦБ" id="7ad4e3ea-8bf6-475f-8de5-d76ec2dad83a"/>
+			<Metadata name="Catalog.Валюты.Attribute.ПолноеНаименование" id="bf0ab24c-23c1-4f48-9516-9d9ee7df49e6"/>
+		</Metadata>
+		<Metadata name="Catalog.Валюты.Form.ФормаСписка" id="76ca43f1-da27-496e-adcf-48bf514253ac" configVersion="a9bf301277584546b63f335a274a78d600000000"/>
+		<Metadata name="Catalog.Валюты.Form.ФормаСписка.Form" id="76ca43f1-da27-496e-adcf-48bf514253ac.0" configVersion="350af17acb893149afbe7cc07731074b00000000"/>
+		<Metadata name="Catalog.Валюты.Form.ФормаЭлемента" id="6249a489-1e66-483a-ac8f-c083851bdc72" configVersion="8108f02dc50a8b469f75c6fe036d16fe00000000"/>
+		<Metadata name="Catalog.Валюты.Form.ФормаЭлемента.Form" id="6249a489-1e66-483a-ac8f-c083851bdc72.0" configVersion="77cdf81e263d1b41ad549eea9fb88d0500000000"/>
+		<Metadata name="Catalog.Валюты.ObjectModule" id="febaa768-cc1a-4ef8-ba02-cc51faaa4c38.0" configVersion="9759335c3be5b44aab08c5c6f5d168b600000000"/>
+		<Metadata name="Catalog.Валюты.Predefined" id="febaa768-cc1a-4ef8-ba02-cc51faaa4c38.1c" configVersion="1ef6ed63e7579f45a49fd24545b9e54900000000"/>
+		<Metadata name="Catalog.СтатьиДоходов" id="65caa10e-3842-440d-9209-e83723efc1b7" configVersion="0e86e0d9a26b524a94ebc7c6809a2e2100000000">
+			<Metadata name="Catalog.СтатьиДоходов.Attribute.Комментарий" id="a8b4f2fa-c9d7-49c2-bdab-f1b0b3bad30a"/>
+		</Metadata>
+		<Metadata name="Catalog.СтатьиРасходов" id="c4543437-431f-4700-81de-4581deb5c99b" configVersion="8316d49f670a9e428e140062fba49b5500000000">
+			<Metadata name="Catalog.СтатьиРасходов.Attribute.Комментарий" id="1639b489-5930-4f0e-b52b-2ea8d80a1cd1"/>
+		</Metadata>
+		<Metadata name="Catalog.СчетаИКошельки" id="6b97ba91-af5e-4f82-b395-e908b2b96f95" configVersion="e471e3c32b80b84f8610932423a6867100000000">
+			<Metadata name="Catalog.СчетаИКошельки.Attribute.Активен" id="807ca386-9e22-492b-bea7-d821779200d8"/>
+			<Metadata name="Catalog.СчетаИКошельки.Attribute.КредитныйЛимит" id="91aecf2c-f2b5-4b6a-9791-db3abd6b8eae"/>
+			<Metadata name="Catalog.СчетаИКошельки.Attribute.ТипСчета" id="9e1c1047-f1ac-4727-b790-d32bc88cf279"/>
+			<Metadata name="Catalog.СчетаИКошельки.Attribute.Валюта" id="d0687e3c-d370-4128-b469-ea56393f60d9"/>
+			<Metadata name="Catalog.СчетаИКошельки.Attribute.Комментарий" id="e752524e-e9f6-4a6f-bac6-a2113606fab3"/>
+		</Metadata>
+		<Metadata name="Catalog.СчетаИКошельки.Form.ФормаЭлемента" id="6d946685-205e-4018-b199-b676aab0a439" configVersion="ff9522162471974c8a2db236df87e0f200000000"/>
+		<Metadata name="Catalog.СчетаИКошельки.Form.ФормаЭлемента.Form" id="6d946685-205e-4018-b199-b676aab0a439.0" configVersion="4d9cea2f4444f741a340f8875096d57b00000000"/>
+		<Metadata name="Catalog.СчетаИКошельки.Predefined" id="6b97ba91-af5e-4f82-b395-e908b2b96f95.1c" configVersion="7a41faa61f51524d99eb5949dcce7d4400000000"/>
+		<Metadata name="Catalog.ФизическиеЛица" id="6242a15f-cb8b-4ae1-82df-3c723639d5cd" configVersion="c1c3b23178375943a76295c2d221b56700000000"/>
+		<Metadata name="Catalog.ФинансовыеЦели" id="33459196-fe92-4c41-9117-8ffb79f01aef" configVersion="4e54ddc4409e9340b4142ce79a81da2800000000"/>
+		<Metadata name="ChartOfAccounts.РазделыУчета" id="3313a313-22b4-4a86-88d4-26559515df5d" configVersion="2d5a3db065871f478de8a631c422335900000000"/>
+		<Metadata name="ChartOfAccounts.РазделыУчета.Predefined" id="3313a313-22b4-4a86-88d4-26559515df5d.9" configVersion="a70bedb5d2dfbd4d9f26df7ce59b15c700000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета" id="cbcc7dc3-3c88-4ecc-946f-e1cf921a8a5f" configVersion="06111c2b0cae8a409e4e0a6228efd97500000000"/>
+		<Metadata name="ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.Predefined" id="cbcc7dc3-3c88-4ecc-946f-e1cf921a8a5f.7" configVersion="4a72edc12e6f08499603ce51b7e03ce500000000"/>
+		<Metadata name="CommonModule.КурсыВалютСервер" id="be42e470-dab7-47a3-8471-098eb6d19785" configVersion="d750e7784011014592764ff6dc0c1b4100000000"/>
+		<Metadata name="CommonModule.КурсыВалютСервер.Module" id="be42e470-dab7-47a3-8471-098eb6d19785.0" configVersion="2fc68215fe327d458a9f01e2a713d11200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="3ab2dcbd-a691-453d-9d98-82c11fb4990a" configVersion="409d4d5e637e4b4c87f7396dd63946e100000000"/>
+		<Metadata name="Enum.ТипыСчетов" id="beafa302-2500-480e-af95-72e4b0b39100" configVersion="83bc41b95e7ed84594b0039898765e6a00000000">
+			<Metadata name="Enum.ТипыСчетов.EnumValue.Прочее" id="0f410d3b-0683-4191-b2c5-a6fd6ce7622e"/>
+			<Metadata name="Enum.ТипыСчетов.EnumValue.Наличные" id="2162482a-5134-49a6-8665-793fcb6cb720"/>
+			<Metadata name="Enum.ТипыСчетов.EnumValue.БанковскаяКартаКредитовая" id="3de14039-a73f-4d26-a0c9-7285ba8d22b2"/>
+			<Metadata name="Enum.ТипыСчетов.EnumValue.БанковскийСчет" id="e15ab478-63b5-4f59-a84e-7d9cf24124b4"/>
+			<Metadata name="Enum.ТипыСчетов.EnumValue.БанковскаяКартаДебетовая" id="f160ada5-31f1-4302-97a2-a241944b53da"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КурсыВалют" id="4f21eb29-d119-490b-a054-217d77090704" configVersion="aaf1c88d540cba4ca7a919f0edce199c00000000">
+			<Metadata name="InformationRegister.КурсыВалют.Resource.Курс" id="2ed2accf-4c35-4135-b4ca-ae6f092fd806"/>
+			<Metadata name="InformationRegister.КурсыВалют.Resource.Кратность" id="4dba44c9-a751-4d22-9141-62f4b73cc4bb"/>
+			<Metadata name="InformationRegister.КурсыВалют.Dimension.Валюта" id="ca05ecda-35bb-4e6d-9e37-7723c02f2581"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КурсыВалют.Form.ФормаЗагрузкиКурсов" id="5a33a778-2867-4c4f-859c-d01da409052d" configVersion="401466f3de8e2145b4140abb6cacc1bc00000000"/>
+		<Metadata name="InformationRegister.КурсыВалют.Form.ФормаЗагрузкиКурсов.Form" id="5a33a778-2867-4c4f-859c-d01da409052d.0" configVersion="09b01742be660c4b86f00c9c5de4e63900000000"/>
+		<Metadata name="InformationRegister.КурсыВалют.Form.ФормаСписка" id="dcc22ad2-7609-462b-a54c-bf736174f23d" configVersion="f06ec91e4f5260438ae8b2b341b2cf2500000000"/>
+		<Metadata name="InformationRegister.КурсыВалют.Form.ФормаСписка.Form" id="dcc22ad2-7609-462b-a54c-bf736174f23d.0" configVersion="263b4628a75d1c46b8a0545a58ce96cc00000000"/>
+		<Metadata name="Language.Русский" id="e6aa2278-2093-4dbc-ae8e-b92a794f67d1" configVersion="52712d8d60d6ec448899204b0a88c1be00000000"/>
+		<Metadata name="ScheduledJob.ЗагрузкаКурсовВалют" id="318de98b-5def-4366-95ed-8791cc9125b7" configVersion="2686beafae8d6b4a9a5a9b2ce184b73e00000000"/>
+		<Metadata name="ScheduledJob.ЗагрузкаКурсовВалют.Schedule" id="318de98b-5def-4366-95ed-8791cc9125b7.0" configVersion="eec4439f6b449f4e84279087d9c95ba900000000"/>
+		<Metadata name="WSReference.КурсВалютЦБ" id="9ee6c8d2-3c7b-4cf1-8207-25f885c6744a" configVersion="a5fffaeba24c594ebe40abddc609322a00000000"/>
+		<Metadata name="WSReference.КурсВалютЦБ.WSDefinition" id="9ee6c8d2-3c7b-4cf1-8207-25f885c6744a.0" configVersion="bcec070ea438ac44977c63167eb50d9e00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

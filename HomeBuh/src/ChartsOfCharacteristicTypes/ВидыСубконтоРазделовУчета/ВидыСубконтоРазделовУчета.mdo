@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbcc7dc3-3c88-4ecc-946f-e1cf921a8a5f">
+  <producedTypes>
+    <objectType typeId="e33be53c-4620-4d25-a962-d15856df6014" valueTypeId="e7ccb7b1-b09e-4303-9c66-bfe6a8ce64f8"/>
+    <refType typeId="7f301bfe-eb08-44b0-9a6b-c95440cacf13" valueTypeId="cc8687e7-cce1-4f7b-a87a-ab5d97732b34"/>
+    <selectionType typeId="5a26b5a7-c054-4351-af06-df288399090d" valueTypeId="b216cddf-b3bc-4d5c-814c-99a3aa9e738d"/>
+    <listType typeId="7b4c65b1-2a01-4af5-84ed-1999b5e141f5" valueTypeId="091ba6e4-a938-44f5-ace2-f67cca8d1dc5"/>
+    <managerType typeId="02d2354e-475b-437b-af44-6bcbdc9eade7" valueTypeId="4a0e749f-8d51-43dc-9453-55e166afc227"/>
+    <containerType typeId="25a6dede-ce45-4929-9962-08070026c494" valueTypeId="2521e990-9337-4473-8a04-496ff49f41a6"/>
+  </producedTypes>
+  <name>ВидыСубконтоРазделовУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто разделов учета</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоРазделовУчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.ФинансовыеЦели</types>
+    <types>CatalogRef.СтатьиРасходов</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.СтатьиДоходов</types>
+    <types>CatalogRef.СчетаИКошельки</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4e5d0b51-3f75-433c-951d-a9af6fda00f2">
+      <name>СтатьиДоходовРасходов</name>
+      <description>Статьи доходов расходов</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.СтатьиРасходов</types>
+        <types>CatalogRef.СтатьиДоходов</types>
+      </type>
+    </items>
+    <items id="7e4bf64c-7c1c-49a2-b268-5cfa819f5a02">
+      <name>СчетаИКошельки</name>
+      <description>Счета и кошельки</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.СчетаИКошельки</types>
+      </type>
+    </items>
+    <items id="38fdeb7b-fe24-432d-8792-2c193a29919a">
+      <name>ФинансовыеЦели</name>
+      <description>Финансовые цели</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.ФинансовыеЦели</types>
+      </type>
+    </items>
+    <items id="8766ce54-be63-47c0-8fe7-2d14e6bce10a">
+      <name>ФизическиеЛица</name>
+      <description>Физические лица</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

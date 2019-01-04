@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33459196-fe92-4c41-9117-8ffb79f01aef">
+  <producedTypes>
+    <objectType typeId="c1640f45-b3e1-4ffd-b8b1-38359d4e982e" valueTypeId="4ee932ef-4cd6-4b9c-8d24-d9c31aa168cb"/>
+    <refType typeId="48849ef6-747e-46bf-a7b5-5c03bf9384ca" valueTypeId="8663a177-4686-40df-bdca-220c55e0fccf"/>
+    <selectionType typeId="ac915f70-69f8-4c3a-ae2a-b096bcbbc5ae" valueTypeId="54428767-4e6a-4685-bb3f-c47b658499b5"/>
+    <listType typeId="5a86e9e6-03cb-462a-8eb8-49d317964660" valueTypeId="d6a722c2-acc4-4b25-b61f-c26d948eb65e"/>
+    <managerType typeId="35fa4840-3c59-49bb-8c17-fb29f73bbae3" valueTypeId="ceb46167-db11-4941-8dbc-84435d6f0865"/>
+  </producedTypes>
+  <name>ФинансовыеЦели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые цели</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФинансовыеЦели.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФинансовыеЦели.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
